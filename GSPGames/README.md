@@ -17,8 +17,8 @@ The games are loaded by GSPLauncher which runs on `nwjs`. The only requirement i
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="../reset.css" rel="stylesheet" type="text/css"/>
-    <script src="../phaser.min.js"></script>
+    <link href="reset.css" rel="stylesheet" type="text/css"/>
+    <script src="phaser.min.js"></script>
 </head>
 <body>
     <script src="game.js"></script>
