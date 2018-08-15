@@ -1,5 +1,5 @@
 # GSP
-Central repository for GSPLauncher, GSPGames.
+Central repository for [GSPLauncher](GSPLauncher/README.md), [GSPGames](GSPGames/README.md).
 
 ## Installation
 
