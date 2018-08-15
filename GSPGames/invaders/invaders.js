@@ -148,7 +148,7 @@ function update() {
 
     if (escKey.isDown) {
         game.pendingDestroy = true;
-        window.location.replace('../index.html');
+        window.location.replace('../../../index.html');
     }
 
     if (player.alive) {
@@ -178,7 +178,7 @@ function update() {
             restart();
         }
     }
-    if(aliens.countLiving() === 0) {
+    if (aliens.countLiving() === 0) {
         if (startKey.isDown) {
             restart();
         }
@@ -245,7 +245,7 @@ function enemyHitsPlayer(player, bullet) {
 
         //the "click to restart" handler
         // game.input.onTap.addOnce(restart, this);
-        
+
     }
 
 }

@@ -7,8 +7,8 @@ echo $'\n******* 2) Updating GSP, any user changes will be lost!'
 git fetch --all
 git reset --hard origin/master
 echo $'\n******* 2) Creating shortcuts'
-echo /home/cpi/GSP/nwjs-sdk-v0.27.6-linux-arm/nw /home/cpi/GSP/GSPLauncher --use-gl=egl --ignore-gpu-blacklist --disable-accelerated-2d-canvas --num-raster-threads=2 > /home/cpi/apps/launcher/Menu/GameShell/GSPLauncher.sh
-mv ./common/GSPLauncher.png /home/cpi/apps/launcher/skin/default/Menu/GameShell/GSPLauncher.png
+echo /home/cpi/GSP/nwjs-sdk-v0.27.6-linux-arm/nw /home/cpi/GSP --use-gl=egl --ignore-gpu-blacklist --disable-accelerated-2d-canvas --num-raster-threads=2 > /home/cpi/apps/launcher/Menu/GameShell/GSPLauncher.sh
+cp ./common/GSPLauncher.png /home/cpi/apps/launcher/skin/default/Menu/GameShell/GSPLauncher.png
 echo $'\n******* 5) removing archives...'
 rm *.tar.gz
 echo "***********************************************************************"

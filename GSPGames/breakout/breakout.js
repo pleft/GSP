@@ -119,7 +119,7 @@ function update() {
     }
     if (this.escKey.isDown) {
         game.pendingDestroy = true;
-        window.location.replace('../index.html');
+        window.location.replace('../../../index.html');
     }
 
 }

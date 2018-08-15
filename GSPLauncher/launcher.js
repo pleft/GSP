@@ -18,15 +18,13 @@ var image;
 var module;
 
 const fontChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ._0123456789<|>';
-const currentDir = process.cwd();
-const gamesDir = currentDir+'/../GSPGames/';
 
 function preload() {
     game.load.script('protracker', '_plugins/ProTracker.js');
     game.load.image('070', 'assets/fonts/070.png');
     game.load.image('floor', 'assets/checker-floor.png');
     game.load.binary('elysium', 'assets/elysium.mod', modLoaded, this);
-    game.load.json('menu', 'file://'+gamesDir+'menu.json');
+    game.load.json('menu', '../GSPGames/menu.json');
 }
 
 function modLoaded(key, data) {
@@ -59,7 +57,7 @@ function create() {
     footerImage.scale = { type: 25, x: 0.8, y: 0.8 };
 
     if (menu === null || menu === undefined || menu['games'].length === 0) {
-        menu = {"games":[{ title: '...empty...', directory: null }]};
+        menu = { "games": [{ title: '...empty...', directory: null }] };
     }
 
     previousItemFont.text = '';
@@ -115,25 +113,26 @@ function update() {
         nextItemFont.text = menu['games'][menuPosition + 1].title;
     }
     if (startKey.justDown) {
-        console.log('selected: ' + menu['games'][menuPosition].title);     
-        var gameDirectory = menu['games'][menuPosition].directory;
-        console.log(gamesDir + menu['games'][menuPosition].directory);
-        if (gameDirectory != null) {
-            game.pendingDestroy = true;
-            var exec = require('child_process').exec;
-            var deleteTemp = function() {
-                exec('rm -rf ./tmp/', function(err, data) {
-                    console.log(err);
-                    var copyGameToTemp = function() {
-                        exec('cp -R ' + gamesDir + gameDirectory + ' ./tmp/', function(err, data) {
-                            console.log(err);
-                            window.location.replace('tmp/index.html');
-                        });
-                    }();
-                });
-            }();
-        }
+        console.log('selected: ' + menu['games'][menuPosition].title);
+        // var gameDirectory = menu['games'][menuPosition].directory;
+        // console.log(gamesDir + menu['games'][menuPosition].directory);
+        window.location.replace('../GSPGames/' + menu['games'][menuPosition].directory + '/index.html');
+        // if (gameDirectory != null) {
+        //     game.pendingDestroy = true;
+        //     var exec = require('child_process').exec;
+        //     var deleteTemp = function() {
+        //         exec('rm -rf ./tmp/', function(err, data) {
+        //             console.log(err);
+        //             var copyGameToTemp = function() {
+        //                 exec('cp -R ' + gamesDir + gameDirectory + ' ./tmp/', function(err, data) {
+        //                     console.log(err);
+        //                     window.location.replace('tmp/index.html');
+        //                 });
+        //             }();
+        //         });
+        //     }();
     }
+
     if (escKey.isDown) {
         // nwjs related code to close the application
         nw.App.closeAllWindows();
