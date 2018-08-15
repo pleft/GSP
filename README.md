@@ -1,4 +1,4 @@
-# GSP
+# GSP: GameShell-Phaser
 Central repository for [GSPLauncher](GSPLauncher/README.md), [GSPGames](GSPGames/README.md).
 
 ## Installation
