@@ -1,0 +1,12 @@
+{
+    "games": [
+        {
+            "title": "Breakout",
+            "directory": "breakout/"
+        },
+        {
+            "title": "Invaders",
+            "directory": "invaders/"
+        }
+    ]
+}
