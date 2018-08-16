@@ -1,8 +1,11 @@
 {
-    "games": [
-        {
+    "games": [{
             "title": "Breakout",
             "directory": "breakout/"
+        },
+        {
+            "title": "Defender",
+            "directory": "defender/"
         },
         {
             "title": "Invaders",
