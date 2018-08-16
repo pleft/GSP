@@ -1,5 +1,5 @@
 # GSPGames
-![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders")
+![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders") ![alt text](../common/Defender.png "Defender")
 
 
 GameShell-Phaser Games repo. Phaser.io games ported to work on GameShell via [GSPLauncher](https://github.com/pleft/GSPLauncher)
