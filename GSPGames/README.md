@@ -1,11 +1,17 @@
 # GSPGames
-![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders") ![alt text](../common/Defender.png "Defender")
+![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders") ![alt text](../common/Defender.png "Defender") ![alt text](../common/InifiniteMario.png "Inifnite Mario")
 
 
 GameShell-Phaser Games repo. Phaser.io games ported to work on GameShell via [GSPLauncher](https://github.com/pleft/GSPLauncher)
 
 ## Introduction
 This repository contains Phaser.io games ported to work on GameShell. Porting is required for adjusting to the screen resolution of GameShell which is 320x240 pixels. This require to also adjust the playfield and the sprites/assets resolution (mostly by scaling them down) and changing the coordinates of the screen they render to. Apart from this, game controls also need adjusting. GameShell's gamepad is detected as keyboard and this makes it very easy to map it's buttons.
+
+## List of ported games
+* ![alt text](../GSPGames/breakout/thumbnail.png "Breakout") [Breakout](https://phaser.io/examples/v2/games/breakout) 
+* ![alt text](../GSPGames/defender/thumbnail.png "Defender") [Defender](https://phaser.io/examples/v2/games/defender)
+* ![alt text](../GSPGames/invaders/thumbnail.png "Invaders") [Invaders](https://phaser.io/examples/v2/games/invaders)
+* ![alt text](../GSPGames/mario/thumbnail.png "Infinite Mario") [Infinite Mario](https://github.com/robertkleffner/mariohtml5)
 
 ## Porting guidelines
 
@@ -74,6 +80,28 @@ if (this.escKey.isDown) {
 
 ### menu.json
 `menu.json` holds the info which GSPLauncher needs to load the games' menu. Upon adding a new game to the repo, `menu.json` should be modified accordingly.
+
+```json
+{
+    "games": [{
+            "title": "Breakout",
+            "directory": "breakout/"
+        },
+        {
+            "title": "Defender",
+            "directory": "defender/"
+        },
+        {
+            "title": "Invaders",
+            "directory": "invaders/"
+        },
+        {
+            "title": "Infinite Mario",
+            "directory": "mario/"
+        }
+    ]
+}
+```
 
 ## Contribution
 Feel free to contribute to this repo. Please follow the guidelines so all ported games have the same behavior. I will gladly merge your contributions to the repo.
