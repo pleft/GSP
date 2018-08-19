@@ -1,5 +1,5 @@
 # GSPGames
-![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders") ![alt text](../common/Defender.png "Defender") ![alt text](../common/InifiniteMario.png "Inifnite Mario")
+![alt text](../common/Breakout.png "Breakout") ![alt text](../common/Invaders.png "Invaders") ![alt text](../common/Defender.png "Defender") ![alt text](../common/InifiniteMario.png "Inifnite Mario") ![alt text](../common/pacman.png "Pacman")
 
 
 GameShell-Phaser Games repo. Phaser.io games ported to work on GameShell via [GSPLauncher](https://github.com/pleft/GSPLauncher)
@@ -12,6 +12,7 @@ This repository contains Phaser.io games ported to work on GameShell. Porting is
 * ![alt text](../GSPGames/defender/thumbnail.png "Defender") [Defender](https://phaser.io/examples/v2/games/defender)
 * ![alt text](../GSPGames/invaders/thumbnail.png "Invaders") [Invaders](https://phaser.io/examples/v2/games/invaders)
 * ![alt text](../GSPGames/mario/thumbnail.png "Infinite Mario") [Infinite Mario](https://github.com/robertkleffner/mariohtml5)
+* ![alt text](../GSPGames/pacman/thumbnail.png "Pacman") [Pacman](https://github.com/daleharvey/pacman)
 
 ## Porting guidelines
 
