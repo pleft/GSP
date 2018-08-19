@@ -15,5 +15,10 @@
             "title": "Infinite Mario",
             "directory": "mario/"
         }
+        ,
+        {
+            "title": "Pacman",
+            "directory": "pacman/"
+        }
     ]
 }
