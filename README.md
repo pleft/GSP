@@ -1,5 +1,5 @@
 # GSP: GameShell-Phaser
-![alt text](GSPGames/breakout/thumbnail.png "Breakout") ![alt text](GSPGames/defender/thumbnail.png "Defender") ![alt text](GSPGames/invaders/thumbnail.png "Invaders") ![alt text](GSPGames/mario/thumbnail.png "Infinite Mario")
+![alt text](GSPGames/breakout/thumbnail.png "Breakout") ![alt text](GSPGames/defender/thumbnail.png "Defender") ![alt text](GSPGames/invaders/thumbnail.png "Invaders") ![alt text](GSPGames/mario/thumbnail.png "Infinite Mario") ![alt text](GSPGames/pacman/thumbnail.png "Pacman")
 
 Central repository for [GSPLauncher](GSPLauncher/README.md), [GSPGames](GSPGames/README.md).
 
