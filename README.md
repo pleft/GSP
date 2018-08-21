@@ -29,7 +29,7 @@ To update to the latest GSP code, simply perform a `git pull` on the `master` br
 ## Miscellaneous
 
 ### Debugging
-The shortcut script has been updated to expose the `nwjs` debugging port (9222). This can be usefull to troubleshoot problems and also to help developing on the actual GameShell. To access the debugger all is needed is `Google Chrome` to open a `url` in the form `http:GAMESHELL_IP:9222` and Chrome's developing tools will fire up. **However** it is not so easy since the GameShell's OS does not expose port 9222 to the public. So here comes `ssh` to the rescue. More specifically an `ssh tunneling` is needed. It is very simple, from the **host** computer open a terminal and type:
+The shortcut script has been updated to expose the `nwjs` debugging port (9222). This can be usefull to troubleshoot problems and also to help developing on the actual GameShell. To access the debugger all is needed is `Google Chrome` to open a `url` in the form `http://GAMESHELL_IP:9222` and Chrome's developing tools will fire up. **However** it is not so easy since the GameShell's OS does not expose port 9222 to the public. So here comes `ssh` to the rescue. More specifically an `ssh tunneling` is needed. It is very simple, from the **host** computer open a terminal and type:
 
 ```bash
 ssh -L 9090:localhost:9222 cpi@GAMESHELL_IP
