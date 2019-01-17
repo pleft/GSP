@@ -1,0 +1,11 @@
+{
+    "button": {
+    	"X": "U",
+    	"Y": "I",
+    	"B": "K",
+    	"A": "J",
+    	"MENU": "ESC",
+    	"SELECT": "SPACE",
+    	"START": "ENTER"
+    }
+}

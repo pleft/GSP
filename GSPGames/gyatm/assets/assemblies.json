@@ -1,0 +1,82 @@
+{
+	"name": "Assemblies",
+	"starter": {
+		"title": "Mars Base",
+		"destructable": false,
+		"unlocked": true,
+		"asset": "mine1",
+		"production": {
+			"Fe": 2,
+			"Li2": 0,
+			"H2O": 1,
+			"Be": 0
+		},
+		"cost": 0,
+		"maint": {
+			"Fe": 0,
+			"Li2": 0,
+			"H2O": 0,
+			"Be": 0
+		}
+	},
+	"mine": {
+		"title": "Dilithium Plant",
+		"destructable": true,
+		"unlocked": true,
+		"asset": "mine1",
+		"desc": "Produces 2 Li2 units per turn. Requires H2O. Costs 2 Fe to build",
+		"production": {
+			"Fe": 0,
+			"Li2": 2,
+			"H2O": 0,
+			"Be": 0
+		},
+		"cost": 2,
+		"maint": {
+			"Fe": 0,
+			"Li2": 0,
+			"H2O": 1,
+			"Be": 0
+		}
+	},
+	"gorignak": {
+		"title": "Beryllium Plant",
+		"destructable": true,
+		"unlocked": true,
+		"asset": "mine2",
+		"desc": "Produces 2 Be units per turn. Requires Li2. Costs 2 Fe to build",
+		"production": {
+			"Fe": 1,
+			"Li2": 0,
+			"H2O": 0,
+			"Be": 2
+		},
+		"cost": 2,
+		"maint": {
+			"Fe": 0,
+			"Li2": 1,
+			"H2O": 0,
+			"Be": 0
+		}
+	},
+	"bce": {
+		"title": "Boson Cloud Exciter",
+		"destructable": false,
+		"unlocked": false,
+		"asset": "bce",
+		"desc": "Produces a cloud of particles to decelerate the Settler Pod",
+		"production": {
+			"Fe": 0,
+			"Li2": 0,
+			"H2O": 0,
+			"Be": 0
+		},
+		"cost": 10,
+		"maint": {
+			"Fe": 2,
+			"Li2": 3,
+			"H2O": 5,
+			"Be": 3
+		}
+	}
+}
