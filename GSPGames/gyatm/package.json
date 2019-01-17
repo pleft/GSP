@@ -1,0 +1,16 @@
+{
+    "name": "Get Your Ass to Mars",
+    "main": "index.html",
+    "window": {
+    	"title": "Get Your Ass to Mars",
+    	"toolbar": false,
+        "width": 320,
+        "height": 240,
+        "max_width": 320,
+        "max_height": 240,
+        "resizable": false,
+        "fullscreen": true,
+        "frame": false,
+        "transparent": false
+    }
+}

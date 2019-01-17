@@ -1,0 +1,37 @@
+{
+    "name": "Get Your Ass to Mars",
+    "author": "Indie Imprint",
+    "site": "https://www.indieimprint.com",
+    "copyright": "Copyright © 2018, 2019 Indie Imprint, CC-BY-NC-SA 4.0. Assets by their respective owners",
+    "turns": 15,
+    "music": true,
+    "volume": 0.65,
+    "launcher": {
+    	"enabled": true,
+    	"dest": "../../../index.html"
+    },
+    "intro": {
+    	"text": "Welcome to Mars!\n\nBuild the Bosun Cloud Exciter before the Colonist Shuttle arrives or they won't slow down enough... and will die on impact",
+    	"text2": "The base will generate water and iron, but you need to collect enough additional dilithium and beryllium to build the BCE and keep it running",
+    	"text3": "Press Y to build refineries that will speed up resource production\nX to mute music\nMenu to give up \n\nThe shuttle is off!",
+    	"text4": "Good Luck!\nThe Colonists are counting on you",
+    	"full": true
+    },
+    "bce_build": {
+    	"text": "Congrats! \nTime to build the Boson Cloud Exciter. \nProduces a cloud of particles to decelerate the Settler Pod\nRequires 3 turns.",
+    	"full": false
+    },
+    "lose": {
+    	"text": "Everyone has died\n\n",
+    	"full": true
+    },
+    "win": {
+    	"text": "Colonists arrived safely,\nthanks to your help!\n\n",
+    	"full": true
+    },
+    "credits": {
+    	"text": "Art Assets by:\nKenney.nl\nArdinator, Pjcr, Enterbrain, Buch, Clint Bellanger, CodeManu, Cynicmusic",
+    	"full": true
+    }
+    
+}

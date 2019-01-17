@@ -20,5 +20,10 @@
             "title": "Pacman",
             "directory": "pacman/"
         }
+        ,
+        {
+            "title": "GYATM",
+            "directory": "gyatm/"
+        }
     ]
 }
