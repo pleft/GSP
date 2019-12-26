@@ -34,7 +34,7 @@ The games are loaded by GSPLauncher which runs on `nwjs`. The only requirement i
 ```
 
 
-### ~~Scree~~
+### ~~Screen~~
 ~~GameShell's screen is 320x240 pixels, however initializing the game to the exact screen's size will result to the appearance of scrollbars. So it is set 2-pixels lower, 318x238.~~
 
 ```javascript
