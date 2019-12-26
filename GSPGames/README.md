@@ -34,8 +34,8 @@ The games are loaded by GSPLauncher which runs on `nwjs`. The only requirement i
 ```
 
 
-### Screen
-GameShell's screen is 320x240 pixels, however initializing the game to the exact screen's size will result to the appearance of scrollbars. So it is set 2-pixels lower, 318x238. 
+### ~~Scree~~
+~~GameShell's screen is 320x240 pixels, however initializing the game to the exact screen's size will result to the appearance of scrollbars. So it is set 2-pixels lower, 318x238.~~
 
 ```javascript
 var game = new Phaser.Game(318, 238, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
