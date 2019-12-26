@@ -1,4 +1,4 @@
-var game = new Phaser.Game(319, 239, Phaser.CANVAS, 'e', { preload: preload, create: create, update: update, render: render });
+var game = new Phaser.Game(320, 240, Phaser.CANVAS, 'e', { preload: preload, create: create, update: update, render: render });
 
 function preload() {
 
@@ -36,7 +36,7 @@ function create() {
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
     //  The scrolling starfield background
-    starfield = game.add.tileSprite(0, 0, 319, 239, 'starfield');
+    starfield = game.add.tileSprite(0, 0, 320, 240, 'starfield');
 
     //  Our bullet group
     bullets = game.add.group();

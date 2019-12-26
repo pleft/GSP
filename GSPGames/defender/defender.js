@@ -1,4 +1,4 @@
-var game = new Phaser.Game(319, 239, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(320, 240, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
 
 function preload() {
 
@@ -23,7 +23,7 @@ var prevCamX = 0;
 
 function create() {
 
-    game.world.setBounds(0, 0, 319 * 4, 239);
+    game.world.setBounds(0, 0, 320 * 4, 240);
 
     frames = Phaser.Animation.generateFrameNames('frame', 2, 30, '', 2);
     frames.unshift('frame02');

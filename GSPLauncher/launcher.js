@@ -1,4 +1,4 @@
-var game = new Phaser.Game(319, 239, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(320, 240, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
 var menu;
 var upKey;
 var downKey;
@@ -38,7 +38,7 @@ function create() {
     game.stage.backgroundColor = '#000042';
 
     var floor = game.add.image(0, game.height, 'floor');
-    floor.width = 319;
+    floor.width = 320;
     floor.anchor.y = 1;
 
     titleFont = game.add.retroFont('070', 15, 15, fontChars, 20, 1, 1);

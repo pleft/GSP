@@ -7,7 +7,7 @@
         "max_width": 320,
         "max_height": 240,
         "resizable": false,
-        "fullscreen": false,
+        "fullscreen": true,
         "frame": false,
         "transparent": true
     }

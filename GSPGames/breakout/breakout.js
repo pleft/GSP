@@ -1,4 +1,4 @@
-var game = new Phaser.Game(319, 239, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(320, 240, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
 
 function preload() {
 
@@ -36,7 +36,7 @@ function create() {
     //  We check bounds collisions against all walls other than the bottom one
     game.physics.arcade.checkCollision.down = false;
 
-    s = game.add.tileSprite(0, 0, 319, 239, 'starfield');
+    s = game.add.tileSprite(0, 0, 320, 240, 'starfield');
 
     bricks = game.add.group();
     bricks.enableBody = true;
